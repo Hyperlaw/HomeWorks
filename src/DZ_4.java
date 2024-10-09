@@ -54,7 +54,7 @@ public class DZ_4 {
 
     public static void healing(){
         for (int i = 0; i < heroesAttackType.length; i++) {
-            if(i == 4) {
+            if(i == 3) {
                 continue;
 
             }if (heroesHealth[i] < 100 && heroesHealth[3] > 0){
